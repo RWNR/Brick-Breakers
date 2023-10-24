@@ -28,9 +28,9 @@ func _process(delta):
 		global_position.x = camera_end_x - half_paddle_width
 
 func _input(event):
-	if Input.is_action_just_pressed("left"):
+	if Input.is_action_pressed("left"):
 		direction = Vector2.LEFT
-	elif Input.is_action_just_pressed("right"):
+	elif Input.is_action_pressed("right"):
 		direction = Vector2.RIGHT
 	else:
 		direction = Vector2.ZERO
