@@ -1,10 +1,10 @@
+res://Scripts/ui.gd
+res://Scenes/ui.tscn
+res://Scripts/Level_Definition.gd
+res://Scripts/brick_spawner.gd
+res://Scenes/main.tscn
 res://Scenes/paddle.tscn
-res://Scripts/ball.gd
-res://Scripts/paddle.gd
 res://Scenes/ball.tscn
 res://Scenes/wall.tscn
 res://Scenes/death_zone.tscn
-res://Scenes/ui.tscn
 res://Scenes/brick.tscn
-res://Scenes/main.tscn
-res://Scripts/brick_spawner.gd
