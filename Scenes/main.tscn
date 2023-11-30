@@ -8,7 +8,7 @@
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_hgnl0"]
 [ext_resource type="PackedScene" uid="uid://bnokryjcr2khc" path="res://Scenes/brick.tscn" id="7_78skv"]
 [ext_resource type="AudioStream" uid="uid://dt6suy5b06516" path="res://Sounds/1-19. Cat.wav" id="8_yh4jx"]
-[ext_resource type="AudioStream" uid="uid://bstmi1rwr51ww" path="res://Sounds/1-08. Minecraft.wav" id="9_blufq"]
+[ext_resource type="AudioStream" uid="uid://f3v2jtusnc6m" path="res://Sounds/1-08. Minecraft.wav" id="9_blufq"]
 [ext_resource type="AudioStream" uid="uid://b682d1stn54ff" path="res://Sounds/NoteBlockLow.wav" id="10_03kap"]
 [ext_resource type="AudioStream" uid="uid://x56plhgqgbol" path="res://Sounds/NoteBlockHigh.wav" id="11_pjfbl"]
 
