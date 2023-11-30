@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1700257766
+::res://::1701380466
 icon.svg::CompressedTexture2D::4579600469912798366::1698092283::1698092287::1::::<><>::
 README.md::TextFile::-1::1698092600::0::1::::<><>::
-::res://Assets/::1698092303
+::res://Assets/::1701380466
 Ball.png::CompressedTexture2D::7113742415800555843::1698092303::1698092303::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::8979348304139843021::1698092303::1698092303::1::::<><>::
 Brick-Gray.png::CompressedTexture2D::8342798054112985360::1698092303::1698092303::1::::<><>::
@@ -13,19 +13,23 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698092303::16980923
 icon.svg::CompressedTexture2D::7753658774376271310::1698092303::1698092303::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698092303::1698092303::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698092303::1698092303::1::::<><>::
-::res://Scenes/::1700173870
-ball.tscn::PackedScene::3549421812890998867::1700173659::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
-brick.tscn::PackedScene::3328415742546711552::1700173659::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scripts/brick.gd
-death_zone.tscn::PackedScene::1574591750608049443::1700173659::0::1::::<><>::res://Scripts/death_zone.gd
-main.tscn::PackedScene::1302727204783729464::1700173870::0::1::::<><>::uid://c5jvo7g5dgsy::::res://Scenes/paddle.tscn<>uid://bqtmpuialir2j::::res://Scenes/ball.tscn<>uid://bosdx1vth31dt::::res://Scenes/wall.tscn<>uid://wo0kcjg0imit::::res://Scenes/death_zone.tscn<>uid://bmfweuf062td6::::res://Scenes/ui.tscn<>res://Scripts/brick_spawner.gd<>uid://bnokryjcr2khc::::res://Scenes/brick.tscn
-paddle.tscn::PackedScene::202893759578230476::1700173659::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-ui.tscn::PackedScene::3240352672505690617::1700173852::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
-wall.tscn::PackedScene::3406447917358496977::1700173659::0::1::::<><>::
-::res://Scripts/::1700173852
+::res://Scenes/::1701380020
+ball.tscn::PackedScene::3549421812890998867::1701380020::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
+brick.tscn::PackedScene::3328415742546711552::1701380020::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scripts/brick.gd
+death_zone.tscn::PackedScene::1574591750608049443::1701380020::0::1::::<><>::res://Scripts/death_zone.gd
+main.tscn::PackedScene::1302727204783729464::1701380020::0::1::::<><>::uid://c5jvo7g5dgsy::::res://Scenes/paddle.tscn<>uid://bqtmpuialir2j::::res://Scenes/ball.tscn<>uid://bosdx1vth31dt::::res://Scenes/wall.tscn<>uid://wo0kcjg0imit::::res://Scenes/death_zone.tscn<>uid://bmfweuf062td6::::res://Scenes/ui.tscn<>res://Scripts/brick_spawner.gd<>uid://bnokryjcr2khc::::res://Scenes/brick.tscn
+paddle.tscn::PackedScene::202893759578230476::1701380020::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+ui.tscn::PackedScene::3240352672505690617::1701380020::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
+wall.tscn::PackedScene::3406447917358496977::1701380020::0::1::::<><>::
+::res://Scripts/::1701380349
+1-08. Minecraft.wav::AudioStreamWAV::4969701701458767408::1701380349::1701380340::1::::<><>::
 ball.gd::GDScript::-1::1699991528::0::1::::Ball<>CharacterBody2D<>::
 brick.gd::GDScript::-1::1699045124::0::1::::Brick<>RigidBody2D<>::
-brick_spawner.gd::GDScript::-1::1700173852::0::1::::BrickSpawner<>Node<>::
+brick_spawner.gd::GDScript::-1::1700259023::0::1::::BrickSpawner<>Node<>::
 death_zone.gd::GDScript::-1::1698777091::0::1::::DeathZone<>Area2D<>::
-Level_Definition.gd::GDScript::-1::1700173331::0::1::::<>Node<>::
+Level_Definition.gd::GDScript::-1::1700259045::0::1::::<>Node<>::
 paddle.gd::GDScript::-1::1699991528::0::1::::Paddle<>RigidBody2D<>::
-ui.gd::GDScript::-1::1698956925::0::1::::UI<>CanvasLayer<>::
+ui.gd::GDScript::-1::1700258320::0::1::::UI<>CanvasLayer<>::
+::res://Sounds/::1701380466
+1-08. Minecraft.wav::AudioStreamWAV::3689787329661542250::1701380380::1701380460::1::::<><>::
+1-19. Cat.wav::AudioStreamWAV::8557975719310299571::1701380380::1701380466::1::::<><>::
