@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701380466
+::res://::1701382489
 icon.svg::CompressedTexture2D::4579600469912798366::1698092283::1698092287::1::::<><>::
 README.md::TextFile::-1::1698092600::0::1::::<><>::
 ::res://Assets/::1701380466
@@ -13,13 +13,13 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698092303::16980923
 icon.svg::CompressedTexture2D::7753658774376271310::1698092303::1698092303::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698092303::1698092303::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698092303::1698092303::1::::<><>::
-::res://Scenes/::1701382166
-ball.tscn::PackedScene::3549421812890998867::1701380020::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
-brick.tscn::PackedScene::3328415742546711552::1701380474::0::1::::<><>::uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png<>res://Scripts/brick.gd
+::res://Scenes/::1701382600
+ball.tscn::PackedScene::3549421812890998867::1701380020::0::1::::<><>::uid://c8l7ke1ygg27h
+brick.tscn::PackedScene::3328415742546711552::1701380474::0::1::::<><>::uid://d06ws4g0pu0q0
 death_zone.tscn::PackedScene::1574591750608049443::1701380020::0::1::::<><>::res://Scripts/death_zone.gd
-main.tscn::PackedScene::1302727204783729464::1701381673::0::1::::<><>::uid://c5jvo7g5dgsy::::res://Scenes/paddle.tscn<>uid://bqtmpuialir2j::::res://Scenes/ball.tscn<>uid://bosdx1vth31dt::::res://Scenes/wall.tscn<>uid://wo0kcjg0imit::::res://Scenes/death_zone.tscn<>uid://bmfweuf062td6::::res://Scenes/ui.tscn<>res://Scripts/brick_spawner.gd<>uid://bnokryjcr2khc::::res://Scenes/brick.tscn
-paddle.tscn::PackedScene::202893759578230476::1701380020::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-ui.tscn::PackedScene::3240352672505690617::1701380020::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
+main.tscn::PackedScene::1302727204783729464::1701382600::0::1::::<><>::uid://c5jvo7g5dgsy::::res://Scenes/paddle.tscn<>uid://bqtmpuialir2j::::res://Scenes/ball.tscn<>uid://bosdx1vth31dt::::res://Scenes/wall.tscn<>uid://wo0kcjg0imit::::res://Scenes/death_zone.tscn<>uid://bmfweuf062td6::::res://Scenes/ui.tscn<>res://Scripts/brick_spawner.gd<>uid://bnokryjcr2khc::::res://Scenes/brick.tscn<>uid://dt6suy5b06516::::res://Sounds/1-19. Cat.wav<>uid://f3v2jtusnc6m::::res://Sounds/1-08. Minecraft.wav<>uid://b682d1stn54ff::::res://Sounds/NoteBlockLow.wav<>uid://x56plhgqgbol::::res://Sounds/NoteBlockHigh.wav
+paddle.tscn::PackedScene::202893759578230476::1701380020::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1
+ui.tscn::PackedScene::3240352672505690617::1701380020::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6
 wall.tscn::PackedScene::3406447917358496977::1701380020::0::1::::<><>::
 ::res://Scripts/::1701380349
 1-08. Minecraft.wav::AudioStreamWAV::4969701701458767408::1701380349::1701380340::1::::<><>::
@@ -30,9 +30,9 @@ death_zone.gd::GDScript::-1::1698777091::0::1::::DeathZone<>Area2D<>::
 Level_Definition.gd::GDScript::-1::1700259045::0::1::::<>Node<>::
 paddle.gd::GDScript::-1::1699991528::0::1::::Paddle<>RigidBody2D<>::
 ui.gd::GDScript::-1::1700258320::0::1::::UI<>CanvasLayer<>::
-::res://Sounds/::1701382192
-1-08. Minecraft.wav::AudioStreamWAV::3689787329661542250::1701380380::1701380460::1::::<><>::
+::res://Sounds/::1701382844
+1-08. Minecraft.wav::AudioStreamWAV::958233102298236263::1701382844::1701382845::1::::<><>::
 1-19. Cat.wav::AudioStreamWAV::8557975719310299571::1701380380::1701380466::1::::<><>::
 creeper-explosion-sound-effect-made-with-Voicemod-technology.wav::AudioStreamWAV::415019893213248514::1701382192::1701382192::1::::<><>::
-NoteBlockHigh.wav::AudioStreamWAV::-1::1701382166::1701382166::1::::<><>::
-NoteBlockLow.wav::AudioStreamWAV::-1::1701382166::1701382166::1::::<><>::
+NoteBlockHigh.wav::AudioStreamWAV::1678184338845585819::1701382166::1701382166::1::::<><>::
+NoteBlockLow.wav::AudioStreamWAV::4632045412837928259::1701382166::1701382166::1::::<><>::
