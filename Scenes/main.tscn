@@ -70,7 +70,7 @@ stream = ExtResource("9_blufq")
 
 [node name="BallWallCollision" type="AudioStreamPlayer2D" parent="Audios"]
 stream = ExtResource("10_03kap")
-volume_db = 24.0
+volume_db = 4.667
 
 [node name="BallBrickCollision" type="AudioStreamPlayer2D" parent="Audios"]
 stream = ExtResource("11_pjfbl")

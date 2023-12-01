@@ -11,6 +11,8 @@ const VELOCITY_LIMIT = 25
 @export var death_zone: DeathZone
 @export var ui: UI
 
+@onready var ball_wall_collision = $"../Audios/BallWallCollision"
+@onready var ball_brick_collision = $"../Audios/BallBrickCollision"
 
 
 var speed_up_factor = 1.05
@@ -18,8 +20,6 @@ var start_position: Vector2
 var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
-
-
 
 func _ready():
 	ui.set_lifes(lifes)
@@ -37,8 +37,10 @@ func _physics_process(delta):
 		
 	if(collider is Brick or collider is Paddle):
 		ball_collision(collider)
+		ball_brick_collision.play()
 	else:
 		velocity = velocity.bounce(collision.get_normal())
+		ball_wall_collision.play()
 		
 	
 func start_ball():
