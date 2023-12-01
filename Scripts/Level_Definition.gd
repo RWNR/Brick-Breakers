@@ -5,7 +5,8 @@ var current_level = 1
 
 
 var level_1 = [
-	[0,1,0]
+	[0, 2, 2, 2, 2, 0],
+	[1, 0, 1, 1, 0, 1]
 ]
 
 var level_2 = [

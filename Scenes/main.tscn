@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://stbyydqc2igu"]
+[gd_scene load_steps=13 format=3 uid="uid://stbyydqc2igu"]
 
 [ext_resource type="PackedScene" uid="uid://c5jvo7g5dgsy" path="res://Scenes/paddle.tscn" id="1_8lfxa"]
 [ext_resource type="PackedScene" uid="uid://bqtmpuialir2j" path="res://Scenes/ball.tscn" id="2_tl0m5"]
@@ -8,9 +8,10 @@
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_hgnl0"]
 [ext_resource type="PackedScene" uid="uid://bnokryjcr2khc" path="res://Scenes/brick.tscn" id="7_78skv"]
 [ext_resource type="AudioStream" uid="uid://dt6suy5b06516" path="res://Sounds/1-19. Cat.wav" id="8_yh4jx"]
-[ext_resource type="AudioStream" uid="uid://nwf7u3heuetr" path="res://Sounds/1-08. Minecraft.wav" id="9_blufq"]
+[ext_resource type="AudioStream" uid="uid://biq0dikcxlssh" path="res://Sounds/1-08. Minecraft.wav" id="9_blufq"]
 [ext_resource type="AudioStream" uid="uid://b682d1stn54ff" path="res://Sounds/NoteBlockLow.wav" id="10_03kap"]
 [ext_resource type="AudioStream" uid="uid://x56plhgqgbol" path="res://Sounds/NoteBlockHigh.wav" id="11_pjfbl"]
+[ext_resource type="AudioStream" uid="uid://f6bk1puuuxhy" path="res://Sounds/creeper-explosion-sound-effect-made-with-Voicemod-technology.wav" id="12_pow5g"]
 
 [node name="Main" type="Node"]
 
@@ -69,6 +70,10 @@ stream = ExtResource("9_blufq")
 
 [node name="BallWallCollision" type="AudioStreamPlayer2D" parent="Audios"]
 stream = ExtResource("10_03kap")
+volume_db = 24.0
 
 [node name="BallBrickCollision" type="AudioStreamPlayer2D" parent="Audios"]
 stream = ExtResource("11_pjfbl")
+
+[node name="BallDeath" type="AudioStreamPlayer2D" parent="Audios"]
+stream = ExtResource("12_pow5g")
