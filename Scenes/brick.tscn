@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Scripts/brick.gd" id="1_g1wyn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_huiil"]
-size = Vector2(100, 27)
+size = Vector2(140, 35)
 
 [node name="Brick" type="RigidBody2D"]
 collision_layer = 8
@@ -14,7 +14,7 @@ freeze = true
 script = ExtResource("1_g1wyn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.25, 0.25)
+scale = Vector2(0.35, 0.35)
 texture = ExtResource("1_2wepe")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
