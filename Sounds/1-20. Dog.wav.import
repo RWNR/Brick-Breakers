@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cl1nkvs375t6n"
+path="res://.godot/imported/1-20. Dog.wav-b4308856059ad078772cd0f5a2f549ce.sample"
+
+[deps]
+
+source_file="res://Sounds/1-20. Dog.wav"
+dest_files=["res://.godot/imported/1-20. Dog.wav-b4308856059ad078772cd0f5a2f549ce.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
