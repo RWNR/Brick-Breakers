@@ -11,12 +11,14 @@ const ROWS = 6
 @export var brick_scene: PackedScene
 @export var margin: Vector2 = Vector2(8, 8)
 @export var spawn_start: Marker2D
+@onready var background_music = $"../Audios/BackgroundMusic"
 
 var brick_count = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	spawn_from_definition(LevelDefinition.get_current_level())
+	background_music.play()
 
 
 func spawn():
