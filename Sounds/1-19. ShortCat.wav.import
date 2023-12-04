@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://scyjmadqlomi"
+path="res://.godot/imported/1-19. ShortCat.wav-2f330e0b825094425f72a75d41c16553.sample"
+
+[deps]
+
+source_file="res://Sounds/1-19. ShortCat.wav"
+dest_files=["res://.godot/imported/1-19. ShortCat.wav-2f330e0b825094425f72a75d41c16553.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
