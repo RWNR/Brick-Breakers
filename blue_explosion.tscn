@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://jpr1mqs6deks"]
+
+[ext_resource type="Texture2D" uid="uid://dy6rejgdojmnp" path="res://Particles/fire_02.png" id="1_n68ls"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_4yl7y"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_y57nc"]
+offsets = PackedFloat32Array(0.524691, 0.530864, 0.845679, 1)
+colors = PackedColorArray(7.27706e-07, 0.717916, 0.718009, 1, 0.310595, 0.891506, 0.890444, 1, 0.504717, 1, 0.998215, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_hwavy"]
+gradient = SubResource("Gradient_y57nc")
+width = 10
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_w68x3"]
+particle_flag_disable_z = true
+direction = Vector3(2.08165e-12, -1, 2.08165e-12)
+spread = 180.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 741.56
+initial_velocity_max = 741.56
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 0.2
+scale_max = 0.2
+color = Color(0, 1, 1, 1)
+color_ramp = SubResource("GradientTexture1D_hwavy")
+
+[node name="BlueFire" type="GPUParticles2D"]
+material = SubResource("CanvasItemMaterial_4yl7y")
+scale = Vector2(0.52, 0.52)
+amount = 10
+process_material = SubResource("ParticleProcessMaterial_w68x3")
+texture = ExtResource("1_n68ls")
+explosiveness = 0.72
+fixed_fps = 60

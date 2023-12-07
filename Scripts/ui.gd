@@ -31,6 +31,6 @@ func on_level_won():
 	background_music.stop()
 
 func _on_level_won_button_pressed():
-	LevelDefinition.current_level = 2
+	LevelDefinition.current_level += 1
 	get_tree().reload_current_scene()
 	game_won_music.stop()
