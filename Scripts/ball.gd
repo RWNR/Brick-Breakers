@@ -13,6 +13,7 @@ const VELOCITY_LIMIT = 30
 
 @onready var ball_wall_collision = $"../Audios/BallWallCollision"
 @onready var ball_brick_collision = $"../Audios/BallBrickCollision"
+@onready var explode = $explode
 
 
 var speed_up_factor = 1.05
@@ -38,11 +39,12 @@ func _physics_process(delta):
 	if(collider is Brick or collider is Paddle):
 		ball_collision(collider)
 		ball_brick_collision.play()
+		explode.emitting = true
 	else:
 		velocity = velocity.bounce(collision.get_normal())
 		ball_wall_collision.play()
+		explode.emitting = true
 		
-	
 func start_ball():
 	position = start_position
 	randomize()

@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0r21k3kqtnsm"]
+
+[ext_resource type="Texture2D" uid="uid://dy6rejgdojmnp" path="res://Particles/fire_02.png" id="1_he75o"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_yrkqp"]
+particle_flag_disable_z = true
+direction = Vector3(2.08165e-12, -1, 2.08165e-12)
+spread = 121.33
+flatness = 0.08
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 910.12
+initial_velocity_max = 910.12
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+damping_min = 49.265
+damping_max = 49.265
+scale_min = 0.2
+scale_max = 0.2
+color = Color(0.67451, 1, 1, 1)
+
+[node name="explode" type="GPUParticles2D"]
+scale = Vector2(0.52, 0.52)
+emitting = false
+process_material = SubResource("ParticleProcessMaterial_yrkqp")
+texture = ExtResource("1_he75o")
+one_shot = true
+speed_scale = 2.0
+explosiveness = 1.0
+fixed_fps = 60
